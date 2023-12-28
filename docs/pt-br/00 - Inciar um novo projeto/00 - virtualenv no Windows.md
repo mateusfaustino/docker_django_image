@@ -34,3 +34,9 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 ```
     python manage.py runserver 
 ```
+
+## 07 - Use o pip freeze para criar o arquivo de requirements
+
+```
+    pip freeze -l > requirements.txt
+```
